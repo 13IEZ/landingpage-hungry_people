@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry People</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/banny.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/queries.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="#" class="header-nav__item">home</a>
+                <a href="#" class="header-nav__item">about</a>
+                <a href="#" class="header-nav__item">team</a>
+                <a href="#" class="header-nav__item">booking</a>
+                <a href="#" class="header-nav__item"><img src="img/logo.png" alt="Hungry people logo" class="header-nav__logo"></a>
+                <a href="#" class="header-nav__item">menu</a>
+                <a href="#" class="header-nav__item">galerie</a>
+                <a href="#" class="header-nav__item">events</a>
+                <a href="#" class="header-nav__item">contact</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="header-title"><span class="header-title__item">Restaurant</span></br>Hungry People</h1>
+            <div class="btn-wrapper">
+                <a href="#" class="btn-full">book table</a>
+                <a href="#" class="btn-ghost">explore</a>
+            </div>
+            <div class="btn-wrapper">
+                <a href="#" class="down-btn js--scroll-forward"><img src="img/swap-down-ic.png" alt="Down button" class="down-ic"></a>
+            </div>
+        </div>
+
+        <div class="social-bar">
+            <a href="#" class="social-link facebook"></a>
+            <a href="#" class="social-link twitter"></a>
+            <a href="#" class="social-link instagram"></a>
+        </div>
+    </header>
+
+    <section class="about-us js--section-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="about-us__title">About us</h2>
+                    <p class="text-type1__black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                    <p class="text-type2__black">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+                <div class="col-sm">
+                    <img src="img/About-us-pic.png" alt="About us picture" class="about-us__picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-team">
+        <div class="container">
+            <h3 class="our-team__title">our team</h3>
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/master-chef-pic.png" alt="Master Chef photo" class="our-team__photo">
+                </div>
+                <div class="col-sm">
+                    <h2 class="our-team__title2">MASTER CHEF</h2>
+                    <p class="text-type1__white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                    <p class="text-type2__white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="book-a-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="book-a-table__title">book a table</h2>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Phone">
+                        <input type="text" placeholder="People" class="bg_arrow">
+                        <input type="text" placeholder="Date (mm/dd)">
+                        <input type="text" placeholder="Time" class="bg_arrow">
+                        <input type="submit" value="BOOK NOW">
+                    </form>
+                </div>
+                <div class="col-sm">
+                    <img src="img/book-a-table-pic.png" alt="Books picture" class="book-a-table__pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active rounded-circle"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1" class="rounded-circle"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2" class="rounded-circle"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <h3 class="carousel__title">specialties</h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="img/carousel-pic.png" alt="Dish" class="carousel__photo">
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="carousel__title2">chocolate pancakes</h2>
+                            <p class="text-type1__white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                            <p class="text-type2__white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                        </div>
+                    </div>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <h3 class="carousel__title">specialties</h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h2 class="carousel__title2">chocolate pancakes</h2>
+                            <p class="text-type1__white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                            <p class="text-type2__white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                        </div>
+                        <div class="col-sm">
+                            <img src="img/carousel-pic.png" alt="Dish" class="carousel__photo">
+                        </div>
+                    </div>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <h3 class="carousel__title">specialties</h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="img/carousel-pic.png" alt="Dish" class="carousel__photo">
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="carousel__title2">chocolate pancakes</h2>
+                            <p class="text-type1__white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                            <p class="text-type2__white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                        </div>
+                    </div>
+                </div>   
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="contact__title">Contact</h2>
+            <p class="text-type1__black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis<br> at velit maximus, molestie est a, tempor magna.</p>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+                <textarea name="message" id="message" cols="30" rows="100" placeholder="Message"></textarea>
+                <div class="form-wrapper">
+                  
+                        <p class="contact-form__text"><ion-icon name="pin-outline" class="small_ic"></ion-icon>5th London Boulevard, U.K.</p>
+                        <p class="contact-form__text"><ion-icon name="call-outline" class="small_ic"></ion-icon>+40 729 131 637/+40 726 458 782</p>
+                        <p class="contact-form__text"><ion-icon name="mail-outline" class="small_ic"></ion-icon>office@mindblister.com</p>
+                    
+                    <input type="button" value="SEND MESSAGE" class="contact_btn">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer-section">
+        <p class="footer_text">© Copyright <span class="bold_text">Mindblister</span> 2019</p>
+    </footer>
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+</html>
